@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: fuchsia; */
+  background-image: linear-gradient(163deg, gray, fuchsia, lime, yellow, blue);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.title {
+  color: orange;
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+  font-weight: 600;
+  font-size: 100px;
+  width: 300px;
+  margin-top: -50px;
+  z-index: 1000;
+  background-color: white;
+  
+
+  animation: wiggle infinite 10s;
+  /* transform: rotate(360deg); */
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 0px;
+}
+
+.shrek{
+  top: 0px;
+  left: 0px;
+  height: 100px;
+}
+
+.mike {
+  top: 200px;
+  left: 600px;
+  rotate: 35deg;
+  animation: wiggle infinite 2.5s ;
+
+}
+
+.hundred{
+  top: 100px;
+  left: 500rem;
+
+}
+
+.amongUs {
+  top: 366px;
+  left: -100px;
+  rotate: -42deg;
+  height: 500px;
+  width: 600px;
+  animation: wiggle infinite 2s ;
+}
+
+.faceEmojiOne {
+  top: 500px;
+  left: 1000px;
+  animation: wiggle infinite 10s ;
+}
+
+.faceEmojiTwo {
+  top: 0px;
+  animation: wiggle infinite 1s ;
+}
+
+.arrow {
+  font-size: 600px;
+  color: black;
+}
+
+
+
+@keyframes wiggle {
+  0% {transform: translate(14px, 40px) rotate(20deg);}
+  5% {transform: translate(-110px, -120px) rotate(20deg);}
+  10% {transform: translate(102px, -14px) rotate(20deg);}
+  15% {transform: translate(-1220px, 110px) rotate(20deg);}
+  20% {transform: translate(103px, 202px) rotate(21deg);}
+  25% {transform: translate(-120px, -250px) rotate(-21deg);}
+  30% {transform: translate(330px, -40px) rotate(20deg);}
+  35% {transform: translate(-305px, 160px) rotate(-21deg);}
+  40% {transform: translate(302px, 90px) rotate(20deg);}
+  45% {transform: translate(-340px, -1009px) rotate(20deg);}
+  50% {transform: translate(303px, -12px) rotate(-21deg);}
+  55% {transform: translate(-110px, -120px) rotate(20deg);}
+  60% {transform: translate(102px, -14px) rotate(20deg);}
+  65% {transform: translate(-1220px, 110px) rotate(20deg);}
+  70% {transform: translate(103px, 202px) rotate(21deg);}
+  75% {transform: translate(-120px, -250px) rotate(-21deg);}
+  80% {transform: translate(330px, -40px) rotate(20deg);}
+  85% {transform: translate(-305px, 160px) rotate(-21deg);}
+  90% {transform: translate(302px, 90px) rotate(20deg);}
+  95% {transform: translate(-340px, -1009px) rotate(20deg);}
+  100% {transform: translate(303px, -12px) rotate(-21deg);}
+}
+
